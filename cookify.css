@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body  {
+    background-image: url('background3.jpg'); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* Ajuste l'image pour couvrir tout l'écran */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    height: 100vh; /* Remplit toute la hauteur de la fenêtre */
+    display: flex; /* Flexbox pour centrer le contenu */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    font-family: 'Arial', sans-serif;
+    background-image: "fruit.jpg";
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
+
+.container {
+    /* Ajouter un effet lumineux */
+  text-shadow: 0 0 5px #f0f;
+  animation: glow 2s infinite;
+    background:transparent;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold; /* Met le titre en gras */
+    font-size: 2.5em; /* Ajustez la taille selon vos préférences */
+    animation: fadeIn 2s ease-in-out, bounce 1s infinite; 
+    margin-bottom: 30px;
+    color: #f1fff1;
+    
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes glow {
+    0% {
+      text-shadow:  0 0 10px rgb(255, 164, 255);
+    }
+    50% {
+        text-shadow: 0 0 10px rgb(251, 198, 251);
+    }
+    
+  }
+
+
+
+
+/* Autres styles */
+
+.input-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Styles pour la galerie et les suggestions */
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.ingredient {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.ingredient:hover {
+    transform: scale(1.1);
+}
+
+.suggestions {
+    max-height: 200px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+.suggestion-item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.ingredient {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.ingredient:hover {
+    transform: scale(1.1);
+}
+
+.suggestions {
+    max-height: 200px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+.suggestion-item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
